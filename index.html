@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Tasarım Programı Kurulum ve Sözleşmesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="baslık">ABC Tasarım Programı Kurulum ve Sözleşmesi</h1>
+    <form action="" method="get">
+    <div id="div">
+
+        <fieldset class="f1">
+            <legend>Sözleşme Onay</legend>
+            <input  type="checkbox" name="onay_butonu" id="onay">
+            <label for="onay">Asağıdaki bilgilerin doğru olduğunu kabul ediyorum ve onaylıyorum</label>
+            <br>
+            <input  type="submit" value="Formu Kaydet">
+            <input type="submit" value="Formu Temizle">
+        </fieldset>
+        <br>
+        <fieldset class="f1">
+            <legend>Kişisel Bilgiler</legend>
+            <label for="ıd">Form Güvenlik ID</label>
+            <input class="i1" type="text" name="Form Güvenlik ID" id="ıd" placeholder="snnjdk">
+            <br>
+            <label for="ad">Ad</label>
+            <input class="i2" type="text" name="girilen_isim" id="ad"> 
+            <br>
+
+            <label for="soyad">Soyad</label>
+            <input class="i3" type="text" name="Girilen_soyad" id="soyad">
+            <br>
+
+            <label for="yas">Yaş</label>
+            <input class="i4" type="number" name="Girilen_yas" id="yas">
+            <br>
+
+            <label for="email">Mail Adresi</label>
+            <input class="i5" type="email" name="Girilen_mail" id="email">
+            <br>
+            <label for="dosya">Fotoğraf Ekle</label>
+            <input class="i6" type="file" name="secilen_fotoğraf" id="dosya">
+        </fieldset>
+
+        <fieldset>
+            <legend>Diğer Bilgiler</legend>
+           <h3> Buradaki Alan Mesleki Deneyimleri Kapsar</h3>
+           
+
+            <label for="takvim">Sektöre Giriş Tarihi</label>
+            <input type="date" name="girilen_tarih" id="takvim">
+
+            <br>
+
+            <label for="sektör">Sektör Deneyimi:</label>
+            <input type="radio"  name="Tecrübe_süresi" id="sektör"> 1-5 yıl
+            <input type="radio"  name="Tecrübe_süresi" id="sektör"> 6-10 yıl
+            <input type="radio"  name="Tecrübe_süresi" id="sektör">11-15  yıl
+            <input type="radio"  name="Tecrübe_süresi" id="sektör">16 ve üzeri
+
+            <br>
+
+            <label for="dil">Programlama Dilleri</label>
+            <br>
+            <select style=" width: 50%;" name ="girilen dil" id="dil" size="3">
+            <optgroup>
+                <option value="C#">C#</option>
+                <option value="PHP">PHP</option>
+                <option value="JAVA">JAVA</option>
+                <option value="JAVASCRİPT">JAVASCRİPT</option>
+                <option value="PHYTON">PHYTON</option>
+            </optgroup>
+        </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sözleşme Kopyası</legend>
+            <label for="sözleşme">Sözleşme</label>
+           <br>
+           <select style="width: 50% ;" name="sözleşme" id="sözleşme">
+            <optgroup>
+            <option value="Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, repellendus tempora explicabo in quisquam, laboriosam vel nobis delectus tenetur impedit maxime, libero sapiente perspiciatis quae rerum deleniti id ipsum expedita.</option>
+        </optgroup>
+        </select>
+        </fieldset>
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <label for="mailistek">Mail Listesine Katılmak <b>İstiyorum</b></label>
+            <input type="radio" name="mail isteği" id="mailistek">
+            <br>
+            <label for="mailistek2">Mail Listesine Katılmak <b><u>İstemiyorum</u></b></label>
+            <input type="radio" name="mail isteği" id="mailistek2">
+       
+        </fieldset>
+
+    </div>
+</form>
+</body>
+</html>
